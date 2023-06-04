@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>TP 2 Actividad 3</title>
+    </head>
+    <body>
+        <h1>ENCUESTA CAMPUS VIRTUAL</h1>
+        <form>
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <br>
+            <label for="departamento">DEPARTAMENTO:</label>
+            <select name="departamento" id="departamento">
+                <option selected="true" disabled>Seleccione un departamento</option>
+                <option value="Informática">Informática</option>
+                <option value="Arquitectura">Arquitectura</option>
+                <option value="Abogacía">Abogacía</option>
+                <option value="Medicina">Medicina</option>
+            </select>
+            <br>
+            <br>
+            <label for="sede"><strong>SEDE:</strong></label>
+            <select name="sede" id="sede">
+                <option selected="true" disabled>Seleccione una sede</option>
+                <option value="sgo">Santiago Del Estero</option>
+                <option value="ssj">San Salvador De Jujuy</option>
+                <option value="raf">Rafaela</option>
+                <option value="bsas">Buenos Aires</option>
+            </select>
+            <br>
+            <br>
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="telefono">TELÉFONO:</label>
+            <input type="number" name="telefono" id="telefono">
+            <br>
+            <br>
+            <label for="pregunta1">¿Utiliza habitualmente el campus virtual?</label>
+            Si<input type="radio" name="pregunta1" value="si">
+            No<input type="radio" name="pregunta1" value="no">
+            <br>
+            <br>
+            <label for="pregunta2">¿Estaría interesado/a en recibir formación personalizada sobre las posibilidades de esta herramienta?</label>
+            Si<input type="radio" name="pregunta2" value="si">
+            No<input type="radio" name="pregunta2" value="no">
+            <h2>CALENDARIO APROXIMADO DE FORMACIÓN</h2>
+            <label for="turno">TURNO PREFERENTE</label>
+            Mañana<input type="checkbox" name="turno" value="mañana" >
+            Tarde<input type="checkbox" name="turno" value="tarde">
+            <br>
+            <br>
+            <label for="Mes">Mes Presente</label>
+            <select name="Mes">
+                <option selected="true" disabled="disabled">Seleccione un mes</option>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+            <br>
+            <br>
+            <label for="horario">Horario Preferente </label>
+        <select name="Horario">
+            <option selected="true" disabled="disabled">Seleccione un horario</option>
+            <option value="9">9:00</option>
+            <option value="10">10:00</option>
+            <option value="11">11:00</option>
+            <option value="12">12:00</option>
+            <option value="13">13:00</option>
+            <option value="14">14:00</option>
+            <option value="15">15:00</option>
+            <option value="16">16:00</option>
+            <option value="17">17:00</option>
+            <option value="18">18:00</option>
+            <option value="19">19:00</option>
+            <option value="20">20:00</option>
+            <option value="21">21:00</option>
+        </select>
+        <br>
+        <br>
+        <div style="display: flex; flex:row; gap:2rem">
+        <label for="Comentario" style="justify-self: center; align-self: center;">Comentario</label>
+        <textarea name="Comentario" id="" cols="30" rows="10" placeholder="Añada los comentario que desee"></textarea>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex; flex-direction: row; gap: 1rem; margin-left: 10px;">
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar">
+        </div>
+        </form>
+
+        
+    </body>
+</html>
